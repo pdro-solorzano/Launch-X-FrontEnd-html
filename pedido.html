@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PastePlanet -Cliente-</title>
+</head>
+<body>
+    <img src="./assets/img/PastePlanet.png" alt="Logo PastePlanet" width="200px">
+    <h1>Parece que estas decidido a probar!</h1>
+    <h2>Completa tu orden y disfruta de esta experiencia de otra galaxia</h2>
+    <h3>Elige el sabor del pastel:</h3>
+    <form action="./pedido.js">
+        <input type="checkbox" name="flavor" id="flavor" value="Vainilla">Vainilla
+        <br>
+        <input type="checkbox" name="flavor" id="flavor" value="Nuez">Nuez
+        <br>
+        <input type="checkbox" name="flavor" id="flavor" value="Chocolate">Chocolate
+        <br>
+
+        <h3>Elige los extra para tu pastel:</h3>
+        <input type="checkbox" name="extras" id="extras" value="Chispas chocolate">Chispas chocolate
+        <br>
+        <input type="checkbox" name="extras" id="extras" value="Chispas colores">Chispas colores
+        <br>
+        <input type="checkbox" name="extras" id="extras" value="Mermelada">Mermelada
+        <br>
+        <input type="checkbox" name="extras" id="extras" value="Nuez Quebrada">Nuez Quebrada
+        <br>
+        <input type="checkbox" name="extras" id="extras" value="Coco rayado">Coco rayado
+        <br>
+
+        <h3>Datos de contacto:</h3>
+        <label for="clientName">Nombre completo: </label>
+        <input type="text" id="clientName" name="clientName">
+        <br><br>
+        <label for="telephone">Telefono: </label>
+        <input type="tel" id="telephone" name="telephone">
+        <br><br>
+        <label for="email">Correo electronico: </label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
